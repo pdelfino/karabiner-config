@@ -1466,16 +1466,6 @@
                 "type": "basic"
               },
               {
-                "conditions": [
-                  {
-                    "bundle_identifiers": [
-                      "^org\\.gnu\\.Emacs$",
-                      "^org\\.gnu\\.AquamacsEmacs$",
-                      "^org\\.gnu\\.Aquamacs$"
-                    ],
-                    "type": "frontmost_application_unless"
-                  }
-                ],
                 "from": {
                   "key_code": "y",
                   "modifiers": {
@@ -1942,7 +1932,7 @@
             ]
           },
           {
-            "description": "C-y to Paste",
+            "description": "C-y to Maccy clipboard history",
             "manipulators": [
               {
                 "conditions": [
@@ -1965,9 +1955,11 @@
                 },
                 "to": [
                   {
-                    "key_code": "v",
+                    "key_code": "y",
                     "modifiers": [
-                      "command"
+                      "left_command",
+                      "left_option",
+                      "left_control"
                     ]
                   }
                 ],
@@ -4256,71 +4248,6 @@
                 "type": "basic"
               }
             ]
-          },
-          {
-            "description": "Swap C-y and M-y in Emacs (C-y=kill-ring, M-y=yank)",
-            "manipulators": [
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "y",
-                  "modifiers": {
-                    "mandatory": [
-                      "control"
-                    ],
-                    "optional": [
-                      "caps_lock"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "y",
-                    "modifiers": [
-                      "option"
-                    ]
-                  }
-                ],
-                "conditions": [
-                  {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": [
-                      "^org\\.gnu\\.Emacs$"
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "y",
-                  "modifiers": {
-                    "mandatory": [
-                      "option"
-                    ],
-                    "optional": [
-                      "caps_lock"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "y",
-                    "modifiers": [
-                      "control"
-                    ]
-                  }
-                ],
-                "conditions": [
-                  {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": [
-                      "^org\\.gnu\\.Emacs$"
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -6095,7 +6022,7 @@
             ]
           },
           {
-            "description": "C-y to Paste",
+            "description": "C-y to Maccy clipboard history",
             "manipulators": [
               {
                 "conditions": [
@@ -6118,9 +6045,11 @@
                 },
                 "to": [
                   {
-                    "key_code": "v",
+                    "key_code": "y",
                     "modifiers": [
-                      "command"
+                      "left_command",
+                      "left_option",
+                      "left_control"
                     ]
                   }
                 ],

@@ -62,7 +62,7 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =M-d=    | Delete word forward |
 | =C-w=    | Cut                 |
 | =M-w=    | Copy                |
-| =C-y=    | Paste               |
+| =C-y=    | Maccy clipboard history |
 | =C-/=    | Undo                |
 
 **** Emacs C-x Commands
@@ -80,9 +80,9 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 
 | Shortcut | Action                                          |
 |----------+-------------------------------------------------|
-| =M-y=    | Maccy clipboard history (outside Emacs only)    |
+| =M-y=    | Maccy clipboard history (all apps including Emacs) |
 
-=M-y= is remapped to =Ctrl+Option+Cmd+Y= outside Emacs to trigger [[https://maccy.app/][Maccy]] (clipboard manager). Inside Emacs, =M-y= passes through untouched and triggers =counsel-yank-pop= as usual. Both share the system clipboard.
+=M-y= is remapped to =Ctrl+Option+Cmd+Y= everywhere to trigger [[https://maccy.app/][Maccy]] (clipboard manager). In Emacs, =mac-command-modifier= is set to =super= and =s-v= is bound to =yank=, so Maccy's =Cmd+V= paste works in all contexts including the minibuffer.
 
 **** Control Key Emulations
 
