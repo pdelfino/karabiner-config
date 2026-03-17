@@ -1932,7 +1932,7 @@
             ]
           },
           {
-            "description": "C-y to Maccy clipboard history",
+            "description": "C-y to paste (Cmd+v)",
             "manipulators": [
               {
                 "conditions": [
@@ -1950,6 +1950,40 @@
                   "modifiers": {
                     "mandatory": [
                       "left_control"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "v",
+                    "modifiers": [
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
+            "description": "M-y to Maccy clipboard history",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^com\\.apple\\.Terminal$",
+                      "^com\\.googlecode\\.iterm2$",
+                      "^org\\.gnu\\.Emacs$"
+                    ],
+                    "type": "frontmost_application_unless"
+                  }
+                ],
+                "from": {
+                  "key_code": "y",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_option"
                     ]
                   }
                 },
@@ -3948,7 +3982,7 @@
             ]
           },
           {
-            "description": "C-y to Maccy clipboard history",
+            "description": "C-y to paste (Cmd+v)",
             "manipulators": [
               {
                 "conditions": [
@@ -3966,6 +4000,40 @@
                   "modifiers": {
                     "mandatory": [
                       "left_control"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "v",
+                    "modifiers": [
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
+            "description": "M-y to Maccy clipboard history",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^com\\.apple\\.Terminal$",
+                      "^com\\.googlecode\\.iterm2$",
+                      "^org\\.gnu\\.Emacs$"
+                    ],
+                    "type": "frontmost_application_unless"
+                  }
+                ],
+                "from": {
+                  "key_code": "y",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_option"
                     ]
                   }
                 },
@@ -6022,7 +6090,7 @@
             ]
           },
           {
-            "description": "C-y to Maccy clipboard history",
+            "description": "C-y to paste (Cmd+v)",
             "manipulators": [
               {
                 "conditions": [
@@ -6040,6 +6108,40 @@
                   "modifiers": {
                     "mandatory": [
                       "left_control"
+                    ]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "v",
+                    "modifiers": [
+                      "left_command"
+                    ]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
+            "description": "M-y to Maccy clipboard history",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^com\\.apple\\.Terminal$",
+                      "^com\\.googlecode\\.iterm2$",
+                      "^org\\.gnu\\.Emacs$"
+                    ],
+                    "type": "frontmost_application_unless"
+                  }
+                ],
+                "from": {
+                  "key_code": "y",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_option"
                     ]
                   }
                 },
