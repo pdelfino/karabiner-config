@@ -4,7 +4,7 @@ A custom [[https://karabiner-elements.pqrs.org/][Karabiner Elements]] configurat
 
 ** Profiles
 
-This configuration includes *two profiles* optimized for different keyboards:
+This configuration includes *three profiles* optimized for different keyboards:
 
 | Profile          | Keyboard                  |
 |------------------+---------------------------|
