@@ -1,41 +1,49 @@
-* My Karabiner Elements Configuration
+#+TITLE: karabiner-config
+#+AUTHOR: Pedro Delfino
+#+OPTIONS: toc:nil num:nil
 
-A custom [[https://karabiner-elements.pqrs.org/][Karabiner Elements]] configuration for macOS that brings Emacs-style keybindings system-wide and provides quick application launchers.
+[[file:painting.jpg]]
 
-** Profiles
+/"Delivery of the Keys" (1481-1482) by Pietro Perugino -- [[https://en.wikipedia.org/wiki/Delivery_of_the_Keys_(Perugino)][Wikipedia]]/
 
-This configuration includes *three profiles* optimized for different keyboards:
+*Turning macOS into a well-behaved Emacs citizen.*
+
+A custom [[https://karabiner-elements.pqrs.org/][Karabiner Elements]] configuration that brings Emacs-style keybindings system-wide on macOS and provides single-keystroke application launchers. If your fingers already think in =C-f=, =C-n=, and =C-x C-s=, this config makes the rest of your OS speak the same language.
+
+* Profiles
+
+Three profiles optimized for different keyboards:
 
 | Profile          | Keyboard                  |
 |------------------+---------------------------|
 | =mac-default=    | Built-in MacBook keyboard |
 | =logi-ergonomic= | Logitech Ergo K860        |
-| =glove80=        | MoErgo Glove80 split      |
+| =glove80=        | MoErgo Glove80 split keyboard |
 
-** Features
+* Features
 
-*** Application Launchers
+** Application Launchers
 
-Launch your favorite apps instantly using =Right Option= + key:
+Launch apps instantly with =Right Option= + key:
 
-| Shortcut | Application   |
-|----------+---------------|
-| =⌥ + f=  | Emacs         |
-| =⌥ + a=  | Terminal      |
-| =⌥ + d=  | Brave Browser |
-| =⌥ + s=  | Google Chrome (automated test instance) |
-| =⌥ + w=  | Balance (localhost:3005)                |
-| =⌥ + v=  | Slack                                  |
-| =⌥ + c=  | Signal        |
-| =⌥ + x=  | Messages      |
-| =⌥ + t=  | VLC Player    |
-| =⌥ + g=  | Preview       |
+| Shortcut             | Application                              |
+|----------------------+------------------------------------------|
+| =Right Option + f=   | Emacs                                    |
+| =Right Option + a=   | iTerm2                                   |
+| =Right Option + d=   | Brave Browser                            |
+| =Right Option + s=   | Google Chrome (automated test instance)  |
+| =Right Option + w=   | Balance (localhost:3005)                 |
+| =Right Option + v=   | Slack                                    |
+| =Right Option + c=   | Signal                                   |
+| =Right Option + x=   | Messages                                 |
+| =Right Option + t=   | VLC Player                               |
+| =Right Option + g=   | Preview                                  |
 
-*** Emacs Keybindings
+** Emacs Keybindings
 
-Comprehensive Emacs keybindings that work across all macOS applications (except Emacs and Terminal, where native bindings are preserved).
+Comprehensive Emacs keybindings that work across all macOS applications. Emacs and Terminal are excluded so their native bindings are preserved.
 
-**** Navigation
+*** Navigation
 
 | Shortcut | Action                |
 |----------+-----------------------|
@@ -52,7 +60,7 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =M-<=    | Beginning of document |
 | =M->=    | End of document       |
 
-**** Editing
+*** Editing
 
 | Shortcut | Action              |
 |----------+---------------------|
@@ -62,10 +70,10 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =M-d=    | Delete word forward |
 | =C-w=    | Cut                 |
 | =M-w=    | Copy                |
-| =C-y=    | Maccy clipboard history |
+| =C-y=    | Paste               |
 | =C-/=    | Undo                |
 
-**** Emacs C-x Commands
+*** C-x Prefix Commands
 
 | Shortcut  | Action           |
 |-----------+------------------|
@@ -76,24 +84,20 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =C-x h=   | Select all       |
 | =C-x u=   | Undo             |
 
-**** Clipboard
+*** Clipboard Integration
 
-| Shortcut | Action                                          |
-|----------+-------------------------------------------------|
-| =M-y=    | Maccy clipboard history (all apps including Emacs) |
+=M-y= is remapped to =Ctrl+Option+Cmd+Y= outside Emacs to trigger [[https://maccy.app/][Maccy]] (clipboard manager). Inside Emacs, =M-y= passes through untouched and triggers =counsel-yank-pop= as usual. Both share the system clipboard, so the kill ring and Maccy stay in sync.
 
-=M-y= is remapped to =Ctrl+Option+Cmd+Y= everywhere to trigger [[https://maccy.app/][Maccy]] (clipboard manager). In Emacs, =mac-command-modifier= is set to =super= and =s-v= is bound to =yank=, so Maccy's =Cmd+V= paste works in all contexts including the minibuffer.
+*** Control Key Emulations
 
-**** Control Key Emulations
+| Shortcut | Action          |
+|----------+-----------------|
+| =C-i=    | Tab             |
+| =C-m=    | Return / Enter  |
+| =C-[=    | Escape          |
+| =C-]=    | Escape          |
 
-| Shortcut | Action                     |
-|----------+----------------------------|
-| =C-i=    | Tab                        |
-| =C-m=    | Return / Enter             |
-| =C-[=    | Escape                     |
-| =C-]=    | Escape                     |
-
-**** Other Shortcuts
+*** Other Shortcuts
 
 | Shortcut | Action                     |
 |----------+----------------------------|
@@ -103,32 +107,33 @@ Comprehensive Emacs keybindings that work across all macOS applications (except 
 | =C-l=    | Focus URL bar (browsers)   |
 | =C-z=    | Undo                       |
 
-** Design Principles
+* Design Principles
 
-- *Home row focused* — minimize finger travel
-- *Touch typing friendly* — leverage muscle memory
-- *Emacs everywhere* — consistent keybindings across macOS
-- *Keyboard agnostic* — works with both built-in and external keyboards
+- *Home row focused* -- minimize finger travel
+- *Touch typing friendly* -- leverage muscle memory
+- *Emacs everywhere* -- consistent keybindings across macOS
+- *Keyboard agnostic* -- works with built-in, external, and split keyboards
 
-** Installation
+* Installation
 
 1. Install [[https://karabiner-elements.pqrs.org/][Karabiner Elements]]
 2. Clone this repository
-3. Symlink or copy =karabiner.json= to =~/.config/karabiner/karabiner.json=
+3. Symlink or copy =karabiner.json= to =~/.config/karabiner/karabiner.json=:
 
 #+begin_src bash
 ln -sf $(pwd)/karabiner.json ~/.config/karabiner/karabiner.json
 #+end_src
 
-** Related
+* Related
 
-- [[https://github.com/pdelfino/emacs-config][emacs-config]] - The Emacs setup these keybindings complement
-- [[https://github.com/pdelfino/homerow-config][homerow-config]] - Click things without a mouse
-- [[https://github.com/pdelfino/claude-config][claude-config]] - Claude Code configuration
-- [[https://github.com/pdelfino/iterm2-config][iterm2-config]] - iTerm2 terminal profile
-- [[https://github.com/pdelfino/zshrc][zshrc]] - Shell configuration with Emacs keybindings
-- [[https://github.com/pdelfino/macos-setup][macos-setup]] - The bootstrap that ties it all together
+- [[https://github.com/pdelfino/emacs-config][emacs-config]] -- The Emacs setup these keybindings complement
+- [[https://github.com/pdelfino/homerow-config][homerow-config]] -- Click things without a mouse
+- [[https://github.com/pdelfino/my-shortkeys-config][my-shortkeys-config]] -- Emacs-style shortcuts in the browser
+- [[https://github.com/pdelfino/claude-config][claude-config]] -- Claude Code configuration
+- [[https://github.com/pdelfino/iterm2-config][iterm2-config]] -- iTerm2 terminal profile
+- [[https://github.com/pdelfino/zshrc][zshrc]] -- Shell configuration with Emacs keybindings
+- [[https://github.com/pdelfino/macos-setup][macos-setup]] -- The bootstrap that ties it all together
 
-** License
+* License
 
 MIT
