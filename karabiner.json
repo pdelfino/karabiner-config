@@ -109,19 +109,6 @@
                         ]
                     },
                     {
-                        "description": "right_option + v -> Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": { "mandatory": ["right_option"] }
-                                },
-                                "to": [{ "shell_command": "open '/Applications/Slack.app/'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "right_option + c -> Signal",
                         "manipulators": [
                             {
@@ -1939,19 +1926,6 @@
                         ]
                     },
                     {
-                        "description": "right_option + v -> Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": { "mandatory": ["right_option"] }
-                                },
-                                "to": [{ "shell_command": "open '/Applications/Slack.app/'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "right_option + c -> Signal",
                         "manipulators": [
                             {
@@ -3655,19 +3629,6 @@
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Google Chrome' 'http://localhost:3005' --args --remote-debugging-port=9222 --enable-automation" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "right_option + v -> Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": { "mandatory": ["right_option"] }
-                                },
-                                "to": [{ "shell_command": "open '/Applications/Slack.app/'" }],
                                 "type": "basic"
                             }
                         ]

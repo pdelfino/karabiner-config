@@ -33,7 +33,6 @@ Launch apps instantly with =Right Option= + key:
 | =Right Option + d=   | Brave Browser                            |
 | =Right Option + s=   | Google Chrome (automated test instance)  |
 | =Right Option + w=   | Balance (localhost:3005)                 |
-| =Right Option + v=   | Slack                                    |
 | =Right Option + c=   | Signal                                   |
 | =Right Option + x=   | Messages                                 |
 | =Right Option + t=   | VLC Player                               |
