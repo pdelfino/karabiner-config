@@ -4,7 +4,7 @@
         {
             "complex_modifications": {
                 "rules": [
-                                        {
+                    {
                         "description": "right_option + f -> Emacs",
                         "manipulators": [
                             {
@@ -1794,7 +1794,7 @@
         {
             "complex_modifications": {
                 "rules": [
-                                        {
+                    {
                         "description": "left_option + shift + 5 -> Shottr (replaces macOS screenshot)",
                         "manipulators": [
                             {
