@@ -4,20 +4,7 @@
         {
             "complex_modifications": {
                 "rules": [
-                    {
-                        "description": "Disable backlight key",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "YOUR_KEY_CODE_HERE",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
+                                        {
                         "description": "right_option + f -> Emacs",
                         "manipulators": [
                             {
@@ -1807,20 +1794,7 @@
         {
             "complex_modifications": {
                 "rules": [
-                    {
-                        "description": "Disable backlight key",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "YOUR_KEY_CODE_HERE",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "key_code": "" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
+                                        {
                         "description": "left_option + shift + 5 -> Shottr (replaces macOS screenshot)",
                         "manipulators": [
                             {
