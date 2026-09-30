@@ -122,6 +122,19 @@
                         ]
                     },
                     {
+                        "description": "right_option + v -> Telegram Desktop",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Telegram Desktop'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Emacs key bindings [C-x key strokes] (rev 2)",
                         "manipulators": [
                             {
@@ -1763,7 +1776,6 @@
                 }
             ],
             "name": "mac-default",
-            "selected": true,
             "simple_modifications": [
                 {
                     "from": { "apple_vendor_top_case_key_code": "keyboard_fn" },
@@ -1921,6 +1933,19 @@
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Messages'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "right_option + v -> Telegram Desktop",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Telegram Desktop'" }],
                                 "type": "basic"
                             }
                         ]
@@ -3250,6 +3275,35 @@
                         ]
                     },
                     {
+                        "description": "Ctrl+K => Cmd+K (Only in Telegram: quick chat search)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.tdesktop\\.Telegram$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": ["control"],
+                                        "optional": ["caps_lock"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Ctrl+T => Cmd+T (New tab)",
                         "manipulators": [
                             {
@@ -3511,6 +3565,7 @@
                 }
             ],
             "name": "logi-ergonomic",
+            "selected": true,
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         },
         {
@@ -3629,6 +3684,19 @@
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Messages'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "right_option + v -> Telegram Desktop",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Telegram Desktop'" }],
                                 "type": "basic"
                             }
                         ]
