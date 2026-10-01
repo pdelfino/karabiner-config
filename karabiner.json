@@ -135,6 +135,24 @@
                         ]
                     },
                     {
+                        "description": "right_option + r -> Region screenshot to clipboard (Cmd+Ctrl+Shift+4), paste into Claude Code",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": ["left_command", "left_control", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Emacs key bindings [C-x key strokes] (rev 2)",
                         "manipulators": [
                             {
@@ -1951,6 +1969,24 @@
                         ]
                     },
                     {
+                        "description": "right_option + r -> Region screenshot to clipboard (Cmd+Ctrl+Shift+4), paste into Claude Code",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": ["left_command", "left_control", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Emacs key bindings [C-x key strokes] (rev 2)",
                         "manipulators": [
                             {
@@ -3710,6 +3746,24 @@
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Telegram Desktop'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "right_option + r -> Region screenshot to clipboard (Cmd+Ctrl+Shift+4), paste into Claude Code",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": ["left_command", "left_control", "left_shift"]
+                                    }
+                                ],
                                 "type": "basic"
                             }
                         ]

@@ -39,6 +39,16 @@ Launch apps instantly with =Right Option= + key:
 | =Right Option + t=   | VLC Player                               |
 | =Right Option + g=   | Preview                                  |
 
+** Screenshots for Claude Code
+| Shortcut             | Action                                                        |
+|----------------------+---------------------------------------------------------------|
+| =Right Option + r=   | Region screenshot straight to the clipboard (no file)         |
+
+Emits macOS =Cmd+Ctrl+Shift+4=. Drag a region, then paste into Claude
+Code with =Ctrl+V= (or =Cmd+V= in iTerm2 with "Save to Temp File and
+Paste Path" remembered). For arrows, boxes or a scrolling capture use
+Shottr instead (=Cmd+Shift+2=, =Esc= copies).
+
 ** Emacs Keybindings
 
 Comprehensive Emacs keybindings that work across all macOS applications. Emacs and Terminal are excluded so their native bindings are preserved.
