@@ -153,6 +153,19 @@
                         ]
                     },
                     {
+                        "description": "right_option + e -> Shottr: screenshot the active window (no mouse), Esc copies",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open 'shottr://grab/window/active'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Emacs key bindings [C-x key strokes] (rev 2)",
                         "manipulators": [
                             {
@@ -1987,6 +2000,19 @@
                         ]
                     },
                     {
+                        "description": "right_option + e -> Shottr: screenshot the active window (no mouse), Esc copies",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open 'shottr://grab/window/active'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Emacs key bindings [C-x key strokes] (rev 2)",
                         "manipulators": [
                             {
@@ -3764,6 +3790,19 @@
                                         "modifiers": ["left_command", "left_control", "left_shift"]
                                     }
                                 ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "right_option + e -> Shottr: screenshot the active window (no mouse), Esc copies",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "shell_command": "open 'shottr://grab/window/active'" }],
                                 "type": "basic"
                             }
                         ]

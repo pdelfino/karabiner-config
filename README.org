@@ -43,6 +43,7 @@ Launch apps instantly with =Right Option= + key:
 | Shortcut             | Action                                                        |
 |----------------------+---------------------------------------------------------------|
 | =Right Option + r=   | Region screenshot straight to the clipboard (no file)         |
+| =Right Option + e=   | Shottr captures the active window, no mouse; =Esc= copies it   |
 
 Emits macOS =Cmd+Ctrl+Shift+4=. Drag a region, then paste into Claude
 Code with =Ctrl+V= (or =Cmd+V= in iTerm2 with "Save to Temp File and
