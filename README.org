@@ -36,6 +36,7 @@ Launch apps instantly with =Right Option= + key:
 | =Right Option + c=   | Signal                                   |
 | =Right Option + x=   | Messages                                 |
 | =Right Option + v=   | Telegram Desktop                         |
+| =Right Option + n=   | Nemesis (stable build in /Applications)  |
 | =Right Option + t=   | VLC Player                               |
 | =Right Option + g=   | Preview                                  |
 
