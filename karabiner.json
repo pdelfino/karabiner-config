@@ -15,6 +15,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -35,6 +38,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -61,6 +67,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -83,6 +92,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -105,6 +117,9 @@
                                         "mandatory": [
                                             "left_command",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2079,6 +2094,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2113,6 +2131,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2147,6 +2168,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2180,6 +2204,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2403,6 +2430,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2443,6 +2473,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2483,6 +2516,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2643,6 +2679,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2663,6 +2702,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2689,6 +2731,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2711,6 +2756,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2733,6 +2781,9 @@
                                         "mandatory": [
                                             "left_command",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -4707,6 +4758,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -4741,6 +4795,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -4775,6 +4832,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -4808,6 +4868,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5031,6 +5094,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5071,6 +5137,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5111,6 +5180,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5272,6 +5344,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5292,6 +5367,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5318,6 +5396,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5340,6 +5421,9 @@
                                         "mandatory": [
                                             "left_option",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5362,6 +5446,9 @@
                                         "mandatory": [
                                             "left_command",
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7336,6 +7423,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7370,6 +7460,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7404,6 +7497,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7437,6 +7533,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7660,6 +7759,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7700,6 +7802,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -7740,6 +7845,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
