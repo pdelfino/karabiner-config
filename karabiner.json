@@ -126,6 +126,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -147,6 +150,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -168,6 +174,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -189,6 +198,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -210,6 +222,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -231,6 +246,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -252,6 +270,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -273,6 +294,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -294,6 +318,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -315,6 +342,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -336,6 +366,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -357,6 +390,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -383,6 +419,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -1462,7 +1501,7 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -1532,7 +1571,7 @@
                                     "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -1605,7 +1644,7 @@
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -1628,7 +1667,7 @@
                                     "key_code": "y",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -1702,7 +1741,7 @@
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -1775,7 +1814,7 @@
                                     "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -1848,7 +1887,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -2526,7 +2565,6 @@
                 }
             ],
             "name": "mac-default",
-            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -2716,6 +2754,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2737,6 +2778,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2758,6 +2802,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2779,6 +2826,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2800,6 +2850,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2821,6 +2874,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2842,6 +2898,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2863,6 +2922,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2884,6 +2946,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2905,6 +2970,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2926,6 +2994,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2947,6 +3018,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -2973,6 +3047,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -4052,7 +4129,7 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -4122,7 +4199,7 @@
                                     "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -4195,7 +4272,7 @@
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -4218,7 +4295,7 @@
                                     "key_code": "y",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -4292,7 +4369,7 @@
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -4365,7 +4442,7 @@
                                     "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -4438,7 +4515,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -5116,7 +5193,7 @@
                 }
             ],
             "name": "logi-ergonomic",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -5306,6 +5383,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5327,6 +5407,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5348,6 +5431,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5369,6 +5455,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5390,6 +5479,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5411,6 +5503,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5432,6 +5527,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5453,6 +5551,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5474,6 +5575,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5495,6 +5599,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5516,6 +5623,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5537,6 +5647,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -5563,6 +5676,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -6642,7 +6758,7 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -6712,7 +6828,7 @@
                                     "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -6785,7 +6901,7 @@
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option",
+                                            "left_option",
                                             "shift"
                                         ],
                                         "optional": [
@@ -6808,7 +6924,7 @@
                                     "key_code": "y",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -6882,7 +6998,7 @@
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -6955,7 +7071,7 @@
                                     "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock",
@@ -7028,7 +7144,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "left_option"
                                         ],
                                         "optional": [
                                             "caps_lock"
@@ -7706,7 +7822,6 @@
                 }
             ],
             "name": "glove80",
-            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
