@@ -2120,7 +2120,6 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
                                             "^org\\.gnu\\.Emacs$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -4784,7 +4783,6 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
                                             "^org\\.gnu\\.Emacs$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -7449,7 +7447,6 @@
                                     {
                                         "bundle_identifiers": [
                                             "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
                                             "^org\\.gnu\\.Emacs$"
                                         ],
                                         "type": "frontmost_application_unless"

@@ -81,7 +81,7 @@ Comprehensive Emacs keybindings that work across all macOS applications. Emacs a
 | =C-k=    | Kill line           |
 | =M-d=    | Delete word forward |
 | =C-w=    | Cut                 |
-| =M-w=    | Copy                |
+| =M-w=    | Copy (in iTerm2 too) |
 | =C-y=    | Paste               |
 | =C-/=    | Undo                |
 
