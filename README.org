@@ -51,19 +51,6 @@ Code with =Ctrl+V= (or =Cmd+V= in iTerm2 with "Save to Temp File and
 Paste Path" remembered). For arrows, boxes or a scrolling capture use
 Shottr instead (=Cmd+Shift+2=, =Esc= copies).
 
-** Dictation
-| Shortcut     | Action                                  |
-|--------------+-----------------------------------------|
-| =fn + F12=   | Start or stop macOS Dictation           |
-
-Emits =Right Option + Shift + 3=, which is the Dictation shortcut in
-System Settings (the left Option + Shift + 3 opens the screenshot
-toolbar). On the MacBook keyboard, fn is the physical Control key. The
-ERGO K860 keeps its Fn key inside the keyboard and macOS never sees it,
-so on that keyboard the rule fires on the =f12= key code alone: press
-Fn + F12, and if the volume changes instead, press F12 without Fn (or
-flip the keyboard's Fn lock with Fn + Esc).
-
 ** Emacs Keybindings
 
 Comprehensive Emacs keybindings that work across all macOS applications. Emacs and Terminal are excluded so their native bindings are preserved.
