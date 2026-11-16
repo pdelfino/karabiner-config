@@ -7,11 +7,11 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "fn + backspace -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option)",
+                        "description": "fn + f12 -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option). The ERGO K860 keeps its Fn key inside the keyboard, so there the f12 it sends counts on its own.",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "delete_or_backspace",
+                                    "key_code": "f12",
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
@@ -33,12 +33,20 @@
                                 "type": "basic"
                             },
                             {
-                                "from": {
-                                    "key_code": "delete_forward",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 45913,
+                                                "vendor_id": 1133
+                                            }
                                         ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": {
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -2670,11 +2678,11 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "fn + backspace -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option)",
+                        "description": "fn + f12 -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option). The ERGO K860 keeps its Fn key inside the keyboard, so there the f12 it sends counts on its own.",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "delete_or_backspace",
+                                    "key_code": "f12",
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
@@ -2696,12 +2704,20 @@
                                 "type": "basic"
                             },
                             {
-                                "from": {
-                                    "key_code": "delete_forward",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 45913,
+                                                "vendor_id": 1133
+                                            }
                                         ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": {
                                         "optional": [
                                             "caps_lock"
                                         ]
@@ -5334,11 +5350,11 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "fn + backspace -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option)",
+                        "description": "fn + f12 -> macOS Dictation (sends right_option + shift + 3, the Dictation shortcut; Karabiner's screenshot rule only catches the left option). The ERGO K860 keeps its Fn key inside the keyboard, so there the f12 it sends counts on its own.",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "delete_or_backspace",
+                                    "key_code": "f12",
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
@@ -5360,12 +5376,20 @@
                                 "type": "basic"
                             },
                             {
-                                "from": {
-                                    "key_code": "delete_forward",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 45913,
+                                                "vendor_id": 1133
+                                            }
                                         ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": {
                                         "optional": [
                                             "caps_lock"
                                         ]
